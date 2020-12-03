@@ -1,0 +1,11 @@
+digraph "Grafica de una funcion/gnuplot_i/test" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d1b75e9ec2c4519906a8fb49bd0ec6bb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="gnuplot_i" fontname="Helvetica", fontsize="10", URL="dir_d1b75e9ec2c4519906a8fb49bd0ec6bb.html"]
+  dir_b0227b1767aa0de112cd005e15ab5086 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b0227b1767aa0de112cd005e15ab5086.html"];
+  }
+  dir_1c236154b7af33454c71cfb1e73c4cf0 [shape=box label="src" URL="dir_1c236154b7af33454c71cfb1e73c4cf0.html"];
+  dir_b0227b1767aa0de112cd005e15ab5086->dir_1c236154b7af33454c71cfb1e73c4cf0 [headlabel="3", labeldistance=1.5 headhref="dir_000004_000003.html"];
+}
